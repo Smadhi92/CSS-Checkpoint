@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+}
+.cover {
+  background-image: url("https://images.unsplash.com/photo-1532972190883-11c46c01030b?ixlib=rb-0.3.5…gb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=e301c9d…");
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  box-shadow: 5px 5px 10px rgb(148, 146, 146);
+  box-sizing: border-box;
+}
+
+.hach1 {
+  color: white;
+  font-size: 5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  position: relative;
+  top: 40%;
+  padding: 30px;
+}
+.contenu {
+  width: 80%;
+  margin: auto;
+}
+
+.first3 {
+  color: rgb(2, 2, 68);
+  font-size: 4em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  text-shadow: 1px 1px 1px rgb(2, 2, 2);
+}
+.box:hover {
+  outline: 6px solid rgb(0, 0, 0);
+  outline-offset: -6px;
+}
+
+.box {
+  width: 49%;
+  display: inline-block;
+  background-color: rgb(233, 233, 233);
+  padding: 45px;
+  height: 350px;
+  margin: 3px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+#P3,
+#P4 {
+  color: white;
+  background-color: rgb(44, 44, 44);
+}
+
+.boxtitle {
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.boxp {
+  font-size: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.copyright {
+  background-color: rgb(196, 196, 196);
+  font-size: 1.5em;
+  width: 100%;
+  height: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border: 2px double black;
+}
